@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CertificateChain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📜 CertificateChain (Offline Blockchain)</h1>
+
+  <div class="form">
+    <input type="text" id="name" placeholder="Student Name" />
+    <input type="text" id="course" placeholder="Course" />
+    <input type="text" id="grade" placeholder="Grade" />
+    <button onclick="addCertificate()">Add Certificate</button>
+    <button onclick="mineBlock()">Mine Block</button>
+    <button onclick="viewBlockchain()">View Blockchain</button>
+  </div>
+
+  <pre id="output"></pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

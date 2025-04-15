@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f0f8ff;
+  }
+  
+  h1 {
+    color: #004aad;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00337f;
+  }
+  
+  pre {
+    background: #e6f0ff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  
